@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+// Importing materialize CSS as CSS is aplicable accross components i.e css properties are global.
+// Hence importing materialize css in index.js
+import 'materialize-css/dist/css/materialize.min.css';
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
